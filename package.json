@@ -90,7 +90,7 @@
     "url": "https://github.com/paulrberg/create-eth-app"
   },
   "scripts": {
-    "build": "yarn build --output public && ncc build ./src/index.ts --out dist/ && yarn copy-files",
+    "build": "ncc build ./src/index.ts --out dist/ && yarn copy-files",
     "clean": "shx rm -rf ./coverage ./dist",
     "copy-files": "copyfiles --up 1 \"src/gitignore\" dist/",
     "lint": "yarn run lint:ts && yarn run prettier:check",
