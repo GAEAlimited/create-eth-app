@@ -2912,10 +2912,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>= 8, @types/node@npm:>=12, @types/node@npm:^17.0.21":
+"@types/node@npm:*, @types/node@npm:>= 8, @types/node@npm:>=12":
   version: 17.0.21
   resolution: "@types/node@npm:17.0.21"
   checksum: 89dcd2fe82f21d3634266f8384e9c865cf8af49685639fbdbd799bdd1040480fb1e8eeda2d3b9fce41edbe704d2a4be9f427118c4ae872e8d9bb7cbeb3c41a94
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.10.5":
+  version: 20.10.5
+  resolution: "@types/node@npm:20.10.5"
+  dependencies:
+    undici-types: ~5.26.4
+  checksum: e216b679f545a8356960ce985a0e53c3a58fff0eacd855e180b9e223b8db2b5bd07b744a002b8c1f0c37f9194648ab4578533b5c12df2ec10cc02f61d20948d2
   languageName: node
   linkType: hard
 
@@ -4707,7 +4716,7 @@ __metadata:
     "@types/got": 9.6.12
     "@types/jest": ^29
     "@types/jest-when": ^3.5.3
-    "@types/node": ^17.0.21
+    "@types/node": ^20.10.5
     "@types/prompts": 2.0.14
     "@types/tar": 6.1.1
     "@typescript-eslint/eslint-plugin": ^5.62.0
@@ -12079,6 +12088,13 @@ typescript@^4.4.3:
   version: 1.1.0
   resolution: "umask@npm:1.1.0"
   checksum: 5f7fd555aed41bb359eb45a8cfd72a79ddc67208e43ee3f7396c6b6c4066eacec8ec2b7b5f0572315229c9c05cfe90447463c6e8efa1f35b56540b36399199cf
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
   languageName: node
   linkType: hard
 
