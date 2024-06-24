@@ -1,10 +1,10 @@
 {
-  "name": "create-eth-app",
-  "description": "Create Ethereum-powered apps with one command",
+  "name": "create-gsc-app",
+  "description": "Create GSC20-powered apps with one command",
   "version": "1.8.3",
   "bin": "./dist/index.js",
   "bugs": {
-    "url": "https://github.com/paulrberg/create-eth-app/issues"
+    "url": "https://github.com/GAEAlimited/create-gsc-app/issues"
   },
   "contributors": [
     {
@@ -65,8 +65,7 @@
     "ts-node": "^10.9.1",
     "typescript": "~5.3.3"
   },
-  "engines": {
-    "node": ">=18.0.0"
+  "engines": { "node": ">=18.0.0" }
   },
   "files": [
     "/dist",
@@ -85,9 +84,9 @@
   "main": "./dist/index.js",
   "packageManager": "yarn@3.2.0",
   "repository": {
-    "name": "paulrberg/create-eth-app",
+    "name": "GAEAlimited/create-gsc-app",
     "type": "git",
-    "url": "https://github.com/paulrberg/create-eth-app"
+    "url": "https://github.com/GAEAlimited/create-gsc-app"
   },
   "scripts": {
     "build": "ncc build ./src/index.ts --out dist/ && yarn copy-files",
